@@ -24,10 +24,18 @@ describe("npm-package-json-lint-config-nick2bad4u", () => {
             "error",
             [
                 "Nick2bad4u",
+                "nick2bad4u",
                 "Typpi",
                 "Nick",
-                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/eslint-config-nick2bad4u)",
+                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com>",
                 "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://github.com/Nick2bad4u)",
+                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/eslint-plugin-immutable-2)",
+                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/eslint-plugin-SDL-2)",
+                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/eslint-plugin-tsdoc-require-2)",
+                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/eslint-plugin-typefest)",
+                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/eslint-plugin-write-good-comments-2)",
+                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/FitFileViewer)",
+                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/Uptime-Watcher/)",
             ],
         ]);
         expect(cjsConfig.rules["valid-values-private"]).toStrictEqual([
