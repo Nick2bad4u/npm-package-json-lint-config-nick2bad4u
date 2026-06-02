@@ -2,7 +2,7 @@
 
 Use the issue tracker for reproducible `npm-package-json-lint-config-nick2bad4u` bugs:
 
-<https://github.com/Nick2bad4u/npmpackagejsonlintrc-config-nick2bad4u/issues>
+<https://github.com/Nick2bad4u/npm-package-json-lint-config-nick2bad4u/issues>
 
 Include:
 

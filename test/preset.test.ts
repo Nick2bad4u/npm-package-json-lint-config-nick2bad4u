@@ -7,13 +7,29 @@ const require = createRequire(import.meta.url);
 
 describe("npm-package-json-lint-config-nick2bad4u", () => {
     it("exports the native CommonJS config expected by npm-package-json-lint", () => {
-        expect.assertions(4);
+        expect.assertions(8);
 
         const cjsConfig = require("../index.cjs") as typeof config;
 
         expect(cjsConfig).toStrictEqual(config);
+        expect(config.extends).toBe("");
         expect(cjsConfig.rules["require-name"]).toBe("error");
         expect(cjsConfig.rules["require-name"]).not.toBe("off");
+        expect(cjsConfig.rules["no-restricted-dependencies"]).toStrictEqual([
+            "error",
+            ["gulping-npm-package-json-lint"],
+        ]);
+        expect(cjsConfig.rules["require-files"]).toBe("off");
+        expect(cjsConfig.rules["valid-values-author"]).toStrictEqual([
+            "error",
+            [
+                "Nick2bad4u",
+                "Typpi",
+                "Nick",
+                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/eslint-config-nick2bad4u)",
+                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://github.com/Nick2bad4u)",
+            ],
+        ]);
         expect(cjsConfig.rules["valid-values-private"]).toStrictEqual([
             "error",
             [false, true],
