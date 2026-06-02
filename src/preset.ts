@@ -1,0 +1,68 @@
+/** Shareable npm-package-json-lint configuration object. */
+export interface NpmPackageJsonLintConfig {
+    readonly rules: Readonly<Record<string, RuleConfig>>;
+}
+
+/** Rule configuration shape accepted by npm-package-json-lint. */
+export type RuleConfig = readonly [RuleSeverity, unknown] | RuleSeverity;
+
+/** Supported npm-package-json-lint rule severity values. */
+export type RuleSeverity = "error" | "off" | "warning";
+
+/** Default npm-package-json-lint rules for Nick2bad4u packages. */
+export const config: NpmPackageJsonLintConfig = {
+    rules: {
+        "bin-type": "error",
+        "description-format": ["error", {}],
+        "description-type": "error",
+        "devDependencies-type": "error",
+        "engines-type": "error",
+        "files-type": "error",
+        "keywords-type": "error",
+        "license-type": "error",
+        "name-format": "error",
+        "name-type": "error",
+        "no-absolute-version-dependencies": "error",
+        "no-absolute-version-devDependencies": "error",
+        "no-tilde-version-dependencies": "error",
+        "no-tilde-version-devDependencies": "error",
+        "peerDependencies-type": "error",
+        "prefer-alphabetical-dependencies": "error",
+        "prefer-alphabetical-devDependencies": "error",
+        "prefer-alphabetical-peerDependencies": "error",
+        "prefer-caret-version-dependencies": "error",
+        "prefer-caret-version-devDependencies": "error",
+        "prefer-no-bin": "error",
+        "prefer-no-engineStrict": "error",
+        "private-type": "error",
+        "repository-type": "error",
+        "require-author": "error",
+        "require-bugs": "error",
+        "require-contributors": "error",
+        "require-description": "error",
+        "require-devDependencies": "error",
+        "require-engines": "error",
+        "require-files": "error",
+        "require-homepage": "error",
+        "require-keywords": "error",
+        "require-license": "error",
+        "require-name": "error",
+        "require-repository": "error",
+        "require-scripts": "error",
+        "require-version": "error",
+        "scripts-type": "error",
+        "valid-values-license": [
+            "error",
+            [
+                "MIT",
+                "Apache-2.0",
+                "UNLICENSED",
+            ],
+        ],
+        "valid-values-private": ["error", [false, true]],
+        "version-format": "error",
+        "version-type": "error",
+    },
+};
+
+export default config;

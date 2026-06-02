@@ -1,0 +1,30 @@
+{
+    "$schema": "https://www.schemastore.org/tsconfig.json",
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "declaration": false,
+        "declarationMap": false,
+        "isolatedDeclarations": false,
+        "noEmit": true
+    },
+    "exclude": [
+        ".cache/**",
+        "coverage/**",
+        "dist/**",
+        "node_modules/**"
+    ],
+    "extends": "./tsconfig.json",
+    "include": [
+        "*.cjs",
+        "*.d.cts",
+        "*.mjs",
+        "*.ts",
+        ".github/**/*.yml",
+        ".github/**/*.yaml",
+        "scripts/**/*.mjs",
+        "src/**/*.ts",
+        "test/**/*.ts",
+        "vite.config.ts"
+    ]
+}
