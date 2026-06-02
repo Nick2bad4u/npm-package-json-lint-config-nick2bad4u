@@ -11,14 +11,14 @@
         "package-json",
         "shared-config"
     ],
-    "homepage": "https://github.com/Nick2bad4u/npmpackagejsonlintrc-config-nick2bad4u#readme",
+    "homepage": "https://github.com/Nick2bad4u/npm-package-json-lint-config-nick2bad4u#readme",
     "bugs": {
-        "url": "https://github.com/Nick2bad4u/npmpackagejsonlintrc-config-nick2bad4u/issues",
+        "url": "https://github.com/Nick2bad4u/npm-package-json-lint-config-nick2bad4u/issues",
         "email": "20943337+Nick2bad4u@users.noreply.github.com"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Nick2bad4u/npmpackagejsonlintrc-config-nick2bad4u.git"
+        "url": "git+https://github.com/Nick2bad4u/npm-package-json-lint-config-nick2bad4u.git"
     },
     "license": "MIT",
     "author": "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://github.com/Nick2bad4u)",

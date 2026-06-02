@@ -85,7 +85,7 @@ jobs:
                   CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
               with:
                   token: ${{ env.CODECOV_TOKEN }}
-                  slug: Nick2bad4u/npmpackagejsonlintrc-config-nick2bad4u
+                  slug: Nick2bad4u/npm-package-json-lint-config-nick2bad4u
                   files: test-report.junit.xml
                   flags: ${{ matrix.codecov_flag }}
                   name: vitest-junit-${{ matrix.codecov_flag }}
@@ -101,7 +101,7 @@ jobs:
                   CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
               with:
                   token: ${{ env.CODECOV_TOKEN }}
-                  slug: Nick2bad4u/npmpackagejsonlintrc-config-nick2bad4u
+                  slug: Nick2bad4u/npm-package-json-lint-config-nick2bad4u
                   files: ./coverage/lcov.info
                   flags: ${{ matrix.codecov_flag }}
                   name: vitest-unit-coverage-${{ matrix.codecov_flag }}
