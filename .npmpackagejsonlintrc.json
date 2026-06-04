@@ -25,8 +25,21 @@
         "name-type": "error",
         "no-absolute-version-dependencies": "error",
         "no-absolute-version-devDependencies": "error",
+        "no-absolute-version-peerDependencies": "error",
+        "no-archive-dependencies": "error",
+        "no-archive-devDependencies": "error",
+        "no-archive-peerDependencies": "error",
         "no-caret-version-dependencies": "off",
         "no-caret-version-devDependencies": "off",
+        "no-caret-version-peerDependencies": "off",
+        "no-duplicate-properties": "error",
+        "no-file-dependencies": "error",
+        "no-file-devDependencies": "error",
+        "no-file-peerDependencies": "error",
+        "no-git-dependencies": "error",
+        "no-git-devDependencies": "error",
+        "no-git-peerDependencies": "error",
+        "no-repeated-dependencies": "error",
         "no-restricted-dependencies": [
             "error",
             [
@@ -34,6 +47,12 @@
             ]
         ],
         "no-restricted-devDependencies": [
+            "error",
+            [
+                "gulping-npm-package-json-lint"
+            ]
+        ],
+        "no-restricted-peerDependencies": [
             "error",
             [
                 "gulping-npm-package-json-lint"
@@ -51,13 +70,21 @@
                 "gulping-npm-package-json-lint"
             ]
         ],
+        "no-restricted-pre-release-peerDependencies": [
+            "error",
+            [
+                "gulping-npm-package-json-lint"
+            ]
+        ],
         "no-tilde-version-dependencies": "error",
         "no-tilde-version-devDependencies": "error",
+        "no-tilde-version-peerDependencies": "error",
         "optionalDependencies-type": "error",
         "os-type": "error",
         "peerDependencies-type": "error",
         "prefer-absolute-version-dependencies": "off",
         "prefer-absolute-version-devDependencies": "off",
+        "prefer-absolute-version-peerDependencies": "off",
         "prefer-alphabetical-bundledDependencies": "error",
         "prefer-alphabetical-dependencies": "error",
         "prefer-alphabetical-devDependencies": "error",
@@ -73,10 +100,12 @@
                 ]
             }
         ],
+        "prefer-caret-version-peerDependencies": "off",
         "prefer-no-bin": "error",
         "prefer-no-engineStrict": "error",
         "prefer-no-version-zero-dependencies": "off",
         "prefer-no-version-zero-devDependencies": "off",
+        "prefer-no-version-zero-peerDependencies": "off",
         "prefer-property-order": [
             "error",
             [
@@ -126,8 +155,10 @@
                 "readme"
             ]
         ],
+        "prefer-provenance": "error",
         "prefer-tilde-version-dependencies": "off",
         "prefer-tilde-version-devDependencies": "off",
+        "prefer-tilde-version-peerDependencies": "off",
         "preferGlobal-type": "error",
         "private-type": "error",
         "repository-type": "error",
@@ -143,7 +174,7 @@
         "require-devDependencies": "error",
         "require-directories": "off",
         "require-engines": "error",
-        "require-files": "off",
+        "require-files": "error",
         "require-homepage": "error",
         "require-keywords": "error",
         "require-license": "error",
@@ -159,8 +190,11 @@
         "require-publishConfig": "off",
         "require-repository": "error",
         "require-scripts": "error",
+        "require-type": "error",
+        "require-types": "error",
         "require-version": "error",
         "scripts-type": "error",
+        "type-type": "error",
         "valid-values-author": [
             "error",
             [
@@ -169,14 +203,7 @@
                 "Typpi",
                 "Nick",
                 "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com>",
-                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://github.com/Nick2bad4u)",
-                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/eslint-plugin-immutable-2)",
-                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/eslint-plugin-SDL-2)",
-                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/eslint-plugin-tsdoc-require-2)",
-                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/eslint-plugin-typefest)",
-                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/eslint-plugin-write-good-comments-2)",
-                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/FitFileViewer)",
-                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://nick2bad4u.github.io/Uptime-Watcher/)"
+                "Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> (https://github.com/Nick2bad4u)"
             ]
         ],
         "valid-values-engines": "off",
@@ -199,6 +226,13 @@
             ]
         ],
         "valid-values-publishConfig": "off",
+        "valid-values-type": [
+            "error",
+            [
+                "module",
+                "commonjs"
+            ]
+        ],
         "version-format": "error",
         "version-type": "error"
     }

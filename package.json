@@ -108,10 +108,10 @@
         "prettier": "^3.8.3",
         "prettier-config-nick2bad4u": "^1.0.13",
         "publint": "^0.3.21",
-        "remark-config-nick2bad4u": "^1.0.3",
+        "remark-config-nick2bad4u": "^1.0.5",
         "secretlint": "^13.0.2",
         "secretlint-config-nick2bad4u": "^1.1.0",
-        "sort-package-json": "^3.6.1",
+        "sort-package-json": "^4.0.0",
         "typescript": "^6.0.3",
         "vite": "^8.0.16",
         "vitest": "^4.1.8"
