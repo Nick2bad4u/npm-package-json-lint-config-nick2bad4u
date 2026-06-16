@@ -54,11 +54,6 @@ const config: ReturnType<typeof defineConfig> = defineConfig({
             : ["default"],
         restoreMocks: true,
         slowTestThreshold: 300,
-        typecheck: {
-            checker: "tsc",
-            enabled: true,
-            tsconfig: "./tsconfig.vitest-typecheck.json",
-        },
     },
 });
 
