@@ -1,7 +1,7 @@
 {
     "$schema": "https://www.schemastore.org/package.json",
     "name": "npm-package-json-lint-config-nick2bad4u",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "private": false,
     "description": "Shared npm-package-json-lint config for Nick2bad4u projects.",
     "keywords": [
