@@ -9,7 +9,10 @@ export interface NpmPackageJsonLintConfig {
 export type RuleConfig = readonly [RuleSeverity, unknown] | RuleSeverity;
 
 /** Supported npm-package-json-lint rule severity values. */
-export type RuleSeverity = "error" | "off" | "warning";
+export type RuleSeverity =
+    | "error"
+    | "off"
+    | "warning";
 
 /** Default npm-package-json-lint rules for Nick2bad4u packages. */
 export const config = {
